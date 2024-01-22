@@ -1,3 +1,7 @@
+pub mod server_spec;
+use server_spec::server_reply::*;
+
 fn main() {
-    println!("Hello, world! I'm here!");
+    hello_world();
+    bye_world();
 }
